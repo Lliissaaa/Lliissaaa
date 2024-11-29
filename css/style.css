@@ -1,0 +1,213 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Inter-LightItalic;
+    src: url(../font/Inter/Inter-LightItalic.otf);
+}
+
+@font-face {
+    font-family: Grandstander-Italic;
+    src: url(../font/Grandstander/Grandstander-Italic.ttf);
+}
+
+.container{
+    display: flex;
+    width: 1152px;
+    height: 2709px;
+    background-color: #C8ECFA;
+    
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    background-color: #6FA6A6;
+    width: 1152px;
+    height: 93px;
+}
+.name{
+    font-family: Inter-LightItalic;
+    font-size: 40px;
+    margin: 22px 298px 0 39px;
+    width: 342px;
+    height: 56px;
+}
+.info{
+    display: flex;
+    font-size: 24px;
+    font-family: Inter-LightItalic; 
+    margin-top: 32px;
+    margin-right: 47px;
+    margin-left: 298px;
+    justify-content: space-between;
+}
+.a1{
+    display: flex;
+    margin-right: 74px;
+    width: 110px;
+    height: 29px;
+
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.name1{
+    display: flex;
+    justify-content: center;
+    font-family: Grandstander-Italic;
+    font-size: 96px;
+    margin: 186px 227px 72px 242px;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 31px;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 31px;
+}
+    
+
+.blocks1{
+    display: flex;
+    background-color: #6FA6A6;
+    width: 286px;
+    height: 529px;
+    font-family: Grandstander-Italic;
+    font-size: 32px;
+
+}
+
+.name2{
+    display: flex;
+    font-family: Grandstander-Italic;
+    font-size: 96px;
+    margin: 150px 377px 64px 342px;
+}
+.mystile{
+    width: 392px;
+    height: 223px;
+    margin-top: 46px;
+    margin-left: 46px;
+}
+
+.mystile_shop{
+    margin-left: 61px;
+    margin-top: 33px;
+    font-size: 32px;
+    font-family: Grandstander-Italic;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.mystile_shop_txt{
+    font-size: 24px;
+    font-family: Grandstander-Italic;
+}
+.block1{
+    background-color: #8ABAC0;
+    width: 926px;
+    height: 897px;
+    margin-left: 106px;
+    margin-bottom: 65px;
+}
+.block2{
+    display: flex;
+    text-align: right;
+    margin-right: 65px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.project1{
+    display: flex;
+}
+.block4{
+    width: 383px;
+    height: 205px;
+    text-align: left;
+    margin:  0 50px 68px  51px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.city{
+    display: flex;
+    width: 392px;
+    height: 224px;
+    margin: 0 50px 60px 50px;
+}
+.project2{
+    display: flex;
+    margin-top: 50px;
+}
+.city_shop{
+    font-family: Grandstander-Italic;
+    font-size: 32px;
+}
+.city_txt{
+    font-family: Grandstander-Italic;
+    font-size: 24px;
+}
+.project3{
+    display: flex;
+}
+.fit{
+    width: 383px;
+    height: 205px;
+    margin-left: 46px;
+}
+.block5{
+    display: flex;
+    text-align: right;
+    margin-right: 65px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.fitness{
+    font-family: Grandstander-Italic;
+    font-size: 32px;    
+}
+.fitness_txt{
+    font-family: Grandstander-Italic;
+    font-size: 24px;    
+}
+.footer{
+    display: flex;
+    width: 1152px;
+    height: 138px;
+    background-color: #6FA6A6;
+    justify-content: space-between;
+    padding-right: 81px;
+}
+
+.miniphoto{
+    display: flex;
+    margin: 39px 0 39px 46px;
+    align-items: center;
+}
+
+.contacts{
+    display: flex;
+    font-family: Inter-LightItalic;
+    font-size: 24px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.block4 p{
+    display: flex;
+}
+.block-image{
+    width: 200px;
+    height: 100px;
+    display: block;
+}
